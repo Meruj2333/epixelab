@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
+section {
+  margin-bottom: 100px;
+}
+
+.menu-tool, .row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.btn-one, .login-box #sign-up {
+  background-color: #fd6600;
+  padding: 7px 10px;
+  font-size: 18px;
+  border-radius: 10px;
+  border: none;
+  color: #ffffff;
+}
+
+.card {
+  box-shadow: 0 6px 11px 1px rgba(0, 0, 0, 0.72);
+  width: 30%;
+}
+.card img {
+  display: block;
+  margin: 0 auto;
+}
+
+.title2 {
+  font-size: 52px;
+  text-align: center;
+}
+
+.service {
+  font-size: 14px;
+  text-align: center;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.lastimg {
+  width: 50%;
+}
+.lastimg img {
+  width: 100%;
+}
+
+.textbox {
+  width: 40%;
+  align-self: center;
+}
+.textbox .title {
+  font-size: 70px;
+}
+.textbox .text {
+  font-size: 22px;
+}
+.textbox .main-btn {
+  width: 50%;
+}
+
+.play-video {
+  width: 50%;
+}
+
+.textbox-mini {
+  width: 40%;
+}
+
+.card2 {
+  width: 35%;
+}
+.card2 .card2-img {
+  width: 15%;
+}
+.card2 .card2-img img {
+  width: 100%;
+}
+.card2 .card2-textbox {
+  width: 70%;
+}
+
+.card3 {
+  width: 30%;
+}
+
+.menu-tool {
+  width: 30%;
+  margin: auto;
+}
+
+.epixe {
+  color: #fd6600;
+  font-size: 38px;
+  font-weight: 100;
+}
+.epixe span {
+  color: black;
+}
+
+.login-box {
+  margin: auto 0;
+}
+.text {
+  font-size: 22px;
+}
+
+.card {
+  padding: 41px;
+}
+.card .btn-one {
+  display: block;
+  margin: 0 auto;
+}
+
+.card-title {
+  margin: 20px 0;
+  font-size: 36px;
+  text-align: center;
+}
+
+.card-text {
+  font-size: 18px;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.textbox-mini {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.textbox-mini .explore-btn {
+  width: 20%;
+}
+
+.mg20px {
+  margin: 20px 0;
+}
+
+.card2-mini-p {
+  margin: 10px 0;
+}
+
+/*# sourceMappingURL=style.css.map */
