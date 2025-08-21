@@ -156,4 +156,30 @@ section {
   margin: 10px 0;
 }
 
+.card3 {
+  border: solid 1px;
+}
+.card3 .row {
+  border: 1px solid;
+  margin: 0 auto;
+  width: 100%;
+}
+.card3 img {
+  display: block;
+  margin: 0 auto;
+  width: 20%;
+}
+
+.card3-title {
+  text-align: center;
+}
+
+.service {
+  margin: 20px 0;
+}
+
+.card3-title {
+  margin: 20px 0;
+}
+
 /*# sourceMappingURL=style.css.map */
