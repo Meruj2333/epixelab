@@ -6,40 +6,39 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <script src="script.js"></script>
 </head>
 <body>
-<section>
+<header>
     <div class="container">
         <div class="row fast-row">
-            <h3 class="epixe">
-                Epixe<span>Lab</span>
-            </h3>
-            <div class="menu-tool">
-                <h4>
-                    Home
-                </h4>
-                <h4>
-                    About Us
-                </h4>
-                <h4>
-                    About Us
-                </h4>
-                <h4>
-                    About Us
-                </h4>
+            <img class="logo" src="./assets/img/logo.png" alt="">
+            <nav class="menu-tool">
+                <div class="row row-tool">
+                    <ul class="menu-tool-list">
+                        <li><a href="#"> Home</a></li>
+                        <li><a href="#"> About Us</a></li>
+                        <li><a href="#">Our App</a></li>
+                        <li><a href="#">Contacts</a></li>
+                    </ul>
 
+                    <div class="login-box row">
+                        <button class="btn-one btn-sign-in"> Sign In</button>
+                        <button class="btn-one">Sign Up</button>
+                    </div>
+                </div>
+                <img src="./assets/img/close.png" class="close" onclick="closeMenu()" alt="Close Menu">
+            </nav>
 
-            </div>
-            <div class="login-box">
-                <label for="sign-up"> Log In</label>
-                <button id="sign-up">Sign Up
-
-                </button>
-            </div>
+            <img src="./assets/img/burger-bar.png " onclick="showMenu()" class="burger-menu" alt="">
         </div>
+    </div>
+
+</header>
+<section>
+    <div class="container">
         <div class="row">
             <div class="textbox">
                 <h2 class="title">
@@ -54,19 +53,20 @@
                     <button class="btn-one">
                         get started
                     </button>
-                    <button class="">
+                    <button class="learn-more">
+                        <img src="./assets/img/Learn%20More%20icon.png" alt="">
                         Learn More
                     </button>
                 </div>
             </div>
             <div class="lastimg">
-                <img src="./img/image.png" alt="">
+                <img src="assets/img/image.png" alt="">
             </div>
         </div>
+
     </div>
-
-
 </section>
+
 <section>
     <div class="container">
         <h6 class="service">
@@ -77,7 +77,7 @@
         </h3>
         <div class="row">
             <div class="card">
-                <img src="./img/Activity.png" alt="">
+                <img src="assets/img/Activity.png" alt="">
                 <div class="card-title">
                     Graphic Design
                 </div>
@@ -89,7 +89,7 @@
                 </button>
             </div>
             <div class="card">
-                <img src="./img/Activity.png" alt="">
+                <img src="assets/img/Activity.png" alt="">
                 <div class="card-title">
                     Graphic Design
                 </div>
@@ -101,7 +101,7 @@
                 </button>
             </div>
             <div class="card">
-                <img src="./img/Activity.png" alt="">
+                <img src="assets/img/Activity.png" alt="">
                 <div class="card-title">
                     Graphic Design
                 </div>
@@ -125,53 +125,31 @@
                 </h4>
                 <p class="small-p">
                     Startup Framework contains components and complex blocks which can easily be integrated into almost
-                    any
+                    anyv
                     design.
                 </p>
                 <button class="explore-btn">
                     Explore
                 </button>
             </div>
-            <img class="play-video" src="./img/Video%20Player.png" alt="">
-
-
+            <iframe class="play-video"
+                    src="https://www.youtube.com/embed/ZK-rNEhJIDs">
+            </iframe>
         </div>
     </div>
 </section>
 <section>
-    <div class="container">
+    <div class="container-md">
         <h6 class="service">
-            Service
+            TESTMONIALS
         </h6>
         <h3 class="title2">
-            Our Vison & Our Goal
-        </h3>
-        <div class="row">
+            What Clients say about us </h3>
+        <div class="row row-gap-30 ">
             <div class="card2">
-                <div class="row mg20px">
+                <div class="row ">
                     <div class="card2-img">
-                        <img src="./img/userPhoto.jpg" alt="">
-
-                    </div>
-                    <div class="card2-textbox">
-                        <p class="card2-p">
-                            Get a fully retina ready site when you build with Startup Framework. Websites look sharper
-                            and more gorgeous on devices with retina display support
-
-                        </p>
-                        <p class="card2-mini-p">
-                            Rayhan Curran
-
-                        </p>
-                    </div>
-
-                </div>
-
-                </div>
-            <div class="card2">
-                <div class="row">
-                    <div class="card2-img">
-                        <img src="./img/userPhoto.jpg" alt="">
+                        <img src="assets/img/userPhoto.jpg" alt="">
 
                     </div>
                     <div class="card2-textbox">
@@ -192,7 +170,7 @@
             <div class="card2">
                 <div class="row">
                     <div class="card2-img">
-                        <img src="./img/userPhoto.jpg" alt="">
+                        <img src="assets/img/userPhoto.jpg" alt="">
 
                     </div>
                     <div class="card2-textbox">
@@ -213,7 +191,7 @@
             <div class="card2">
                 <div class="row">
                     <div class="card2-img">
-                        <img src="./img/userPhoto.jpg" alt="">
+                        <img src="assets/img/userPhoto.jpg" alt="">
 
                     </div>
                     <div class="card2-textbox">
@@ -231,21 +209,40 @@
                 </div>
 
             </div>
+            <div class="card2">
+                <div class="row">
+                    <div class="card2-img">
+                        <img src="assets/img/userPhoto.jpg" alt="">
+
+                    </div>
+                    <div class="card2-textbox">
+                        <p class="card2-p">
+                            Get a fully retina ready site when you build with Startup Framework. Websites look sharper
+                            and more gorgeous on devices with retina display support
+
+                        </p>
+                        <p class="card2-mini-p">
+                            Rayhan Curran
+
+                        </p>
+                    </div>
+
+                </div>
+
             </div>
         </div>
+    </div>
 
 </section>
 <section>
     <div class="container">
         <h6 class="service">
-            Service
-        </h6>
+            OUR TEAM </h6>
         <h3 class="title2">
-            Our Vison & Our Goal
-        </h3>
+            Meet The Team </h3>
         <div class="row">
             <div class="card3">
-                <img src="./img/userPhoto.jpg" alt="">
+                <img src="assets/img/userPhoto.jpg" alt="">
                 <h4 class="card3-title">
                     Vanessa Laird
                 </h4>
@@ -260,7 +257,7 @@
                 </div>
             </div>
             <div class="card3">
-                <img src="./img/userPhoto.jpg" alt="">
+                <img src="assets/img/userPhoto.jpg" alt="">
                 <h4 class="card3-title">
                     Vanessa Laird
                 </h4>
@@ -275,7 +272,7 @@
                 </div>
             </div>
             <div class="card3">
-                <img src="./img/userPhoto.jpg" alt="">
+                <img src="assets/img/userPhoto.jpg" alt="">
                 <h4 class="card3-title">
                     Vanessa Laird
                 </h4>
@@ -299,10 +296,11 @@
         <h6 class="service">OUR TEAM</h6>
         <h3 class="title2">Subscribe Our Newsleter</h3>
         <div class="row">
-            <img src="./img/Frame.png" alt="">
+            <img src="assets/img/Frame.png" class="contact-img" alt="">
             <div class="contact-textbox">
-                <p class="card-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+                <p class="card2-p">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam
                 </p>
                 <input type="text" placeholder="Your E-mail here">
                 <button class="contact-btn">Subscribe Our Newsletter</button>
